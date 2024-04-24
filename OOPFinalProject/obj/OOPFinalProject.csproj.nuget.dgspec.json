@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OWNER\\OneDrive\\Desktop\\RJ's FIles\\001. Bow Valley Classes Folder\\005. SODV1202\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj": {}
+    "C:\\Users\\OWNER\\OneDrive\\Documents\\GitHub\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OWNER\\OneDrive\\Desktop\\RJ's FIles\\001. Bow Valley Classes Folder\\005. SODV1202\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj": {
+    "C:\\Users\\OWNER\\OneDrive\\Documents\\GitHub\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OWNER\\OneDrive\\Desktop\\RJ's FIles\\001. Bow Valley Classes Folder\\005. SODV1202\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj",
+        "projectUniqueName": "C:\\Users\\OWNER\\OneDrive\\Documents\\GitHub\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj",
         "projectName": "OOPFinalProject",
-        "projectPath": "C:\\Users\\OWNER\\OneDrive\\Desktop\\RJ's FIles\\001. Bow Valley Classes Folder\\005. SODV1202\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj",
+        "projectPath": "C:\\Users\\OWNER\\OneDrive\\Documents\\GitHub\\OOPFinalProject\\OOPFinalProject\\OOPFinalProject.csproj",
         "packagesPath": "C:\\Users\\OWNER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OWNER\\OneDrive\\Desktop\\RJ's FIles\\001. Bow Valley Classes Folder\\005. SODV1202\\OOPFinalProject\\OOPFinalProject\\obj\\",
+        "outputPath": "C:\\Users\\OWNER\\OneDrive\\Documents\\GitHub\\OOPFinalProject\\OOPFinalProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OWNER\\AppData\\Roaming\\NuGet\\NuGet.Config",
