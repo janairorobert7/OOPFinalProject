@@ -10,6 +10,7 @@ class ConnectFour
     private char[,] board = new char[Rows, Columns];
     private char currentPlayer = 'X';
     private int row;
+    private int column;
 
     public ConnectFour()
     {
@@ -88,6 +89,62 @@ class ConnectFour
 
     public void Play(int Column)
     {
+        if (column < 1 || column > Columns || IsColumnFull(Column - 1))
+        {
+            Console.WriteLine("Invalide Move. Try Again....");
+                return;
+        }
 
+        int row = Rows -1;
+        while(row >= 0 && board [row, column - 1] ! == ' ')
+        {
+            row--;
+        }
+
+        board[row, column - 1] = ' ';
+
+        if(IsWinningMove(row, column - 1))
+        {
+            Console.WriteLine($"Player {currentPlayer} wins!");
+            PrintBoard();
+            return;
+        }
+
+        if (IsBoardFull())
+        {
+            Console.WriteLine("It's a draw, Play Again?");
+            PrintBoard();
+            return;
+        }
+
+        currentPlayer = (currentPlayer == 'X') ? 'O' : 'X';
+
+        PrintBoard();
+    }
+
+    internal object GetCurrentPlayer()
+    {
+        throw new NotImplementedException();
+    }
+
+    internal bool IsGameOver()
+    {
+        throw new NotImplementedException();
+    }
+}
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        ConnectFour game = new ConnectFour();
+        int column;
+        do
+        {
+            Console.WriteLine($"Player {game.GetCurrentPlayer()}'s turn");
+            Console.WriteLine("Enter Column Number (1-7): ");
+            column = int.Parse(s: Console.ReadLine());
+            game.Play(column);
+        } while (!game.IsGameOver());
     }
 }
